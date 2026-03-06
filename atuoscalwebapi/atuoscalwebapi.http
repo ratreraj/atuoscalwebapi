@@ -1,0 +1,6 @@
+@atuoscalwebapi_HostAddress = http://localhost:5106
+
+GET {{atuoscalwebapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
