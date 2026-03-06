@@ -18,7 +18,7 @@ namespace atuoscalwebapi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateOrder(Order order)
+        public async Task<IActionResult> CreateOrder(Orders order)
         {
             var connectionString = _config.GetConnectionString("Default");
 
